@@ -1,0 +1,28 @@
+{
+  "name": "project_less",
+  "version": "1.0.0",
+  "description": "Neste exercício você deverá",
+  "keywords": [
+    "html",
+    "css",
+    "less",
+    "build",
+    "src",
+    "cafeteria onde o aroma acolhe"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "Project_less"
+  },
+  "license": "ISC",
+  "author": "Francisco Assis",
+  "type": "exercicio_less",
+  "main": "index.js",
+  "scripts": {
+    "less": "less-watch-compiler ./src/css ./build/css main.less",
+    "test": "exercicio_less"
+  },
+  "devDependencies": {
+    "less": "^4.3.0"
+  }
+}

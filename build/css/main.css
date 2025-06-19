@@ -1,0 +1,119 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+main {
+  width: 100%;
+  height: 80vh;
+  background-image: url("/src/images/img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
+}
+.cabecalhor {
+  width: 100%;
+  padding: 20px;
+  background-color: #211d1c9a;
+}
+.login {
+  color: #EF6812;
+  font-family: Roboto, sans-serif;
+  font-size: 17pt;
+}
+.navegado-item a {
+  color: #fff;
+  text-decoration: none;
+  font-family: Open Sans, sans-serif;
+  margin-left: 10px;
+}
+.menu-cabecalhor,
+.desktop {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width:768px) {
+  .menu-cabecalhor,
+  .desktop {
+    max-width: 70%;
+  }
+}
+.desktop .navegado-item {
+  display: inline;
+  list-style: none;
+}
+.desktop a:hover {
+  color: #EF6812;
+}
+.corpo .postfile-descricao {
+  width: 50%;
+  padding: 17px;
+  height: 200px;
+  background-color: #211d1c8e;
+  margin: 40px;
+  border-radius: 15px;
+  color: #fff;
+}
+.corpo .profile-titulo {
+  font-size: 51px;
+  font-weight: 400;
+}
+.corpo .profile-titulo .redabraca {
+  color: #F31616;
+}
+.corpo .profile-descricao {
+  font-family: fontestilo [fontnavegado-item];
+  font-size: 21px;
+}
+@media (max-width:768px) {
+  .corpo {
+    max-width: 70%;
+  }
+  .corpo .postfile-descricao {
+    width: 100%;
+    height: 100%;
+    background-color: #211d1c8e;
+  }
+  .corpo .profile-titulo {
+    font-size: 31px;
+    font-weight: 400;
+  }
+}
+@media (min-width:768px) and (max-width:1298px) {
+  .corpo {
+    max-width: 80%;
+  }
+  .corpo .postfile-descricao {
+    width: 100%;
+    height: 100%;
+    background-color: #211d1c8e;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .corpo .profile-titulo {
+    font-size: 41px;
+    font-weight: 400;
+  }
+}
+.profile .profile-links {
+  display: flex;
+  margin-left: 7px;
+  list-style: none;
+  color: #EF6812;
+}
+.profile .profile-links .profile-item {
+  position: relative;
+  left: 9px;
+  top: 7px;
+  margin-right: 7px;
+  transition-duration: all ease 0.7s;
+}
+.profile .profile-links .profile-item:hover {
+  transform: scale(1.3);
+  transform: all aese 0.3s;
+}
